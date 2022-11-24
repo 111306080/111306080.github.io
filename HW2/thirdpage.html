@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		table{ background-color: snow;}
+		#male{ color: skyblue;}
+		#female{ color: deeppink;}
+		#other{ color: orange;}
+		th{ color: darkcyan;}
+		.sport{ color: inherit;}
+		th b{ color:darkkhaki; font-weight: bold;}
+
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form>
+	<table border = "1">
+		<thead>
+			<tr>
+				<th colspan = "3">
+					<b>About--111306080</b>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan = "4">
+					<img src="https://i.imgur.com/Um6BD1g.jpg" 
+					width = "90" height ="110"alt="Picture of power man"><br>
+					personal photo					
+				</th>
+			</tr>
+			<tr>
+				<th colspan="2">
+					<div align="left">
+					<label>Name:
+						<input type="name" name="name">
+					</label><br>
+					Gender:		
+						<input type="radio" name="gender" value="male"><span id="male">Male</span>
+						<input type="radio" name="gender" value="female"><span id="female">Female</span>
+					 	<input type="radio" name="gender" value="other"><span id="other">Other</span>		
+					</div>	
+				</th>
+			</tr>
+			<tr>
+				<th>
+					County:
+						<select name = "county">
+							<option value="Taipei">Taipei</option>
+							<option value="Tainan">Tainan</option>
+							<option value="Taichung">Taichung</option>
+							<option value="Taoyuan">Taoyuan</option>
+						</select>
+				</th>
+				<th>
+					Birthday:
+						 <input type="date" name="birthday">
+				</th>
+			</tr>
+			<tr>
+				<th colspan="2">
+					<div align="left">
+						<label>E-mail:
+							<input type="E-mail" name="E-mail">
+						</label>
+					</div>
+				</th>
+			</tr>
+			<tr>
+				<th>Hobby</th>
+				<th colspan="2">
+				<div align="left">	
+					<input type="checkbox" name="hobby" value="swimming"><span class="sport" style="color:greenyellow;">Swimming</span>
+					<input type="checkbox" name="hobby" value="volleyball"><span class="sport" style="color:greenyellow;">Volleyball</span>
+					<input type="checkbox" name="hobby" value="movie"><span class="sport" style="color:greenyellow;">Movie</span>
+					<input type="checkbox" name="hobby" value="game"><span class="sport" style="color:greenyellow;">Game</span>
+					<input type="checkbox" name="hobby" value="sleep"><span class="sport" style="color:greenyellow;">Sleep</span>
+				</div>
+				</th>
+			</tr>
+			<tr>
+				<th>Skill</th>
+				<th colspan="2">
+					<input type="checkbox" name="skill" value="java">Java
+					<input type="checkbox" name="skill" value="html">HTML
+					<input type="checkbox" name="skill" value="python">Python
+					<input type="checkbox" name="skill" value="microsoftOffice">Microsoft Office 
+					<input type="checkbox" name="skill" value="premiere">Premiere
+				</th>				
+			</tr>
+			<tr>
+				<th>Say Something</th>
+					<th colspan="2">
+					<div align="left">
+						<textarea>Say something here</textarea>
+					</div>
+					</th>
+			</tr>
+			<tr>
+				<th>
+					<input type = "submit" value = "Submit">
+ 					<input type = "reset" value = "Clear">
+				</th>
+			</tr>	
+		</tbody>	
+	</table>
+</form>
+</body>
+</html>
