@@ -1,0 +1,28 @@
+body{
+	padding: 10px 10px 10px 10px;
+	font-family: geneva,serif, sans-serif;
+	color: whitesmoke;
+	background-color: lightgray;
+}
+nav{text-align: center;
+	background-color: royalblue;
+	width: 15em;
+	font-weight: bold;
+	border: solid royalblue;
+
+}
+.navbar{
+	font-weight: bold;
+	border-top: 2px solid royalblue;
+	text-align: center;
+	width: 15em;
+	background-color: white;
+}
+nav:hover ul{ display: block;}
+nav ul{
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+nav ul li:hover{background-color: powderblue;}
