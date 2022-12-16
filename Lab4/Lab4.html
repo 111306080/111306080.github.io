@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+		<input type = "button" value = "1st button" onclick="alert(x)">
+		<input type = "button" value = "2nd button" onclick="alert(y)">
+		<script type="text/javascript">
+		var x;
+		var y;
+		x = parseInt(window.prompt("enter 1st input"));
+		y = parseInt(window.prompt("enter 2nd input"));
+		if(x > y){
+			document.writeln(x + ">" + y);
+			document.body.style.backgroundColor = "lightblue"; 		
+		}else if(x < y){
+			document.writeln(x + "<" + y);
+			document.body.style.backgroundColor = "lightgreen"; 		
+		}else{
+			document.writeln(x + "==" + y);
+			document.body.style.backgroundColor = "lightyellow"; 		
+		}
+		
+	</script>
+
+</body>
+</html>
